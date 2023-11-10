@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script/Sortable.js"></script>
+
+    <script src="./script/script.js" defer></script>
+    <script src="./script/script2.js" defer></script>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <title>Эффективность использования основных фондов
+    </title>
+</head>
+<body>
+    <div class="black_header">
+        <h1>
+            Эффективность использования основных фондов
+        </h1>
+        <div class="links_black_header">
+            <a href="../../../index.html">На главную</a>
+            <a class="disabled_button" href="#">Назад</a>
+        </div>
+    </div>
+    <div class="head_text">
+        <div class="questions" id="question_number_1">
+            <h2><span id="num_question_1">9. </span>Прочитайте примеры жизненных ситуаций. Определите, является ли мотивация этих людей внутренней или внешней.</h2>
+        </div>
+        <div class="number_marker">
+            <img style="cursor: pointer;" onclick="openPopUp2()" src="./content/description.svg" alt="description">
+            <p  style="font-weight: 700;" class="number_description">1/10</p>
+        </div>
+    </div>
+    <div class="main_window">
+        
+        <div class="body-inner">
+            <div class="drag2">
+                <div class="columns" id="columns"></div>
+                <div class="row" id="row"></div>
+            </div>
+        </div>
+        <div class="main_buttons">
+            <div class="step_marker">
+
+            </div>
+            <div class="buttons_div">
+                <button id="check_button_0" onclick="location.href='../javascript_quiz_app_2/index.html'">
+                    Назад
+                </button>
+                <button id="check_button_1" onclick="checkAnswer2()">
+                    Ответить
+                </button>
+                <button id="check_button_2" class="disabled_button" onclick="refreshAnwser2()">
+                    Повторить
+                </button>
+                <button id="check_button_3" class="disabled_button" onclick="location.href='../javascript_quiz_app_4/index.html'">
+                    Далее
+                </button>
+
+            </div>
+        </div>
+        <div id="popup2" class="popup close">
+            <div class="popup_body">
+                <div class="popup_content">
+                    <div class="popup_header">
+                        <h3> </h3>
+                        <button onclick="closePopUp2()"><img src="./content/close.svg" alt="close"></button>
+                    </div>
+                    <div class="popup_text">
+                        <h3>1. Ознакомьтесь с правилами безопасной работы.</h3>
+                        <h3>2. Ознакомьтесь с понятием, сущностью и классификацией основных средств.</h3>
+                        <h3>3. Распределите основные фонды в соответствии с предложенной классификацией.</h3>
+                        <h3>4. Ознакомьтесь с видами оценки основных средств.</h3>
+                        <h3>5. Установите соответствие между термином и определением.</h3>
+                        <h3>6. Ознакомьтесь с износом основных средств.</h3>
+                        <h3>7. Ознакомьтесь с физическим износом.</h3>
+                        <h3>8. Ознакомьтесь с моральным износом.</h3>
+                        <h3>9. Выберите определение, которое характеризует моральный износ второго типа.</h3>
+                        <h3>10. Определите физический износ основных средств по объему работ.</h3>
+                        <h3>11. Ознакомьтесь с износом и амортизацией.</h3>
+                        <h3>12. Ознакомьтесь со способами расчета амортизационных отчислений.</h3>
+                        <h3>13. Произвести расчет годовых амортизационных отчислений.</h3>
+                        <h3>14. Произвести расчет годовых амортизационных отчислений.</h3>
+                        <h3>15. Произвести расчет годовых амортизационных отчислений.</h3>
+                        <h3>16. Ознакомьтесь с качественными показателями оценки основных средств в бурении.</h3>
+                        <h3>17. Укажите коэффициент, который позволяет определить пропорцию составляющую введенные основные активы в общую стоимость на окончание расчетного периода времени</h3>
+                        <h3>18. Ознакомьтесь с обобщающими показателями использования основных средств на буровой.</h3>
+                        <h3>19. Укажите коэффициент, который не имеет установленного нормативного значения, но он помогает определить процессы, происходящие на предприятии в связи с развитием его производственной базы и основных средств, которые не связанны с производственным процессом.</h3>
+                        <h3>20. Укажите коэффициент, который помогает оценить состояние основных фондов предприятия.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
